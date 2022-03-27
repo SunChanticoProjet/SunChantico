@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: #1c1c1c;
+    color: white;
+    font-family: "Inter", sans-serif;
+       background-color: rgb(30, 30, 30)
+}
+a {
+    color: #ccc;
+    text-decoration: none;
+   
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+}
+.Logo , .Top_menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:25px ;
+}
+.Top_menu li{
+    margin-right:25px ;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Top_menu a{
+    vertical-align: middle;
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+   text-decoration: none;
+} 
+.Top_menu a:hover {
+    color: aquamarine;
+}
+.Logo h1{
+    font-family: Arial, ;
+    font-size: 40px;
+    color: white;
+    vertical-align: middle;
+    text-shadow: 2px 2px red;
+}
+.Logo a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.Logo h1:hover{
+    text-shadow: 2px 4px red;
+}
+
+main{
+    width: 500px;
+    margin: auto;
+}
+
+.home{
+   
+    margin: auto; 
+    margin-top: 2em;
+    margin-bottom: 3em;
+    
+}
+
+h2 {
+    color :rgb(201, 201, 201);
+    font-size : 16px;
+    font-family : Gilroy, sans-serif;
+    margin-bottom: 2em;
+}
+.rules{
+    margin: auto; 
+    margin-top: 2em;
+    margin-bottom: 3em;
+
+}
+
+.rules>ul{
+    text-align: left;
+    align-self: center;
+    padding: 32px;
+   
+    background-clip:border-box;
+background-color: #262626;
+border-radius: 6px;
+}
+
+.rules>h1{
+    margin-bottom: 0.15em;
+}
+.rules>ul>li{
+
+    font-weight: 400;
+    line-height: 138%;
+    word-break: break-word;
+    margin-bottom: 0.8em;
+}
+.server_block {
+    background: #262626;
+    padding: 1.2em;
+    border-radius: 0.5em;
+    
+}
+
+.server {
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    padding: 0.5em 0.7em;
+    border-radius: 0.3em;
+    position: relative;
+}
+
+.server * {
+    position: relative;
+}
+
+.server_block>a:hover {
+    background: #1d1d1d;
+ 
+}
+
+.al .Two {
+    margin-top: 2em;
+}
+h3 {
+    font-size: 0.8em;
+    margin-top: 1em;
+    color: #6c6c6c;
+    margin-bottom: 0.3em;
+    text-align: left;
+}
+h2 {
+    margin-top: 2em;
+}
+
+.svg-play {
+    height: 2.5em;
+    margin-left: auto;
+    float: right;
+}
+
+
+h6 {
+    margin-top: 1em;
+    font-size: 0.9em;
+    color: #838383;
+}
